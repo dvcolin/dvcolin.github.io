@@ -1,0 +1,27 @@
+.displayFlex(@d: row, @j: center, @a: center) {
+    display: flex;
+    flex-direction: @d;
+    justify-content: @j;
+    align-items: @a;
+}
+
+.bgImage(@size: cover, @position: center) {
+    background-size: @size;
+    background-position: @position;
+}
+
+
+.navFont {
+    font-family: @Open-Sans;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: @nav-gray;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    padding: 1.2rem;
+    transition: @linkHover;
+
+    &:hover {
+        color: @bg-light;
+    }
+}
