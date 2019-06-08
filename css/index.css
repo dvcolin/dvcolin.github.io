@@ -39,7 +39,6 @@
   text-transform: uppercase;
   color: #9197ae;
   font-size: 1.8rem;
-  letter-spacing: 1px;
   padding: 1.2rem;
   transition: color 200ms ease-out;
 }
@@ -235,7 +234,6 @@ body {
   text-transform: uppercase;
   color: #9197ae;
   font-size: 1.8rem;
-  letter-spacing: 1px;
   padding: 1.2rem;
   transition: color 200ms ease-out;
 }
@@ -266,7 +264,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 3rem;
-  font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   color: #242424;
