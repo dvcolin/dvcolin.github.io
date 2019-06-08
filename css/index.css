@@ -6,11 +6,32 @@
   src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
 }
 @font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
 }
 .navFont {
   font-family: 'Open Sans', sans-serif;
@@ -23,7 +44,21 @@
   transition: color 200ms ease-out;
 }
 .navFont:hover {
-  color: #dfe7e6;
+  color: white;
+}
+.mainLayout {
+  height: 100vh;
+  width: 81%;
+  margin-left: 19%;
+  padding: 3.6rem 4.8rem;
+  background: #dfe7e6;
+}
+.paragraphText {
+  font-size: 2.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 3.2rem;
+  color: #242424;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -158,6 +193,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -171,13 +207,13 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 20%;
+  width: 19%;
   height: 100%;
   background: #001021;
   padding: 4.8rem 0;
 }
 .sidebar .sidebar__image {
-  width: 60%;
+  width: 65%;
   height: 25%;
   background: url(../images/sidebar-img.jpeg);
   background-size: cover;
@@ -204,8 +240,61 @@ body {
   transition: color 200ms ease-out;
 }
 .sidebar .sidebar__nav .nav-link:hover {
-  color: #dfe7e6;
+  color: white;
 }
 .sidebar .sidebar__nav i {
-  font-size: 3.5rem;
+  font-size: 4rem;
+}
+.about {
+  height: 100vh;
+  width: 81%;
+  margin-left: 19%;
+  padding: 3.6rem 4.8rem;
+  background: #dfe7e6;
+}
+.about .about__header {
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #242424;
+}
+.about .about__header .about__name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 11.5rem;
+  font-weight: 500;
+  color: #2c365e;
+}
+.about .about__header .about__sub {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: #242424;
+}
+.about .about__description {
+  margin: 2.5rem 0;
+  width: 70%;
+  font-size: 2.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 3.2rem;
+  color: #242424;
+}
+.about .about__button {
+  background: none;
+  padding: 1.8rem 3.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border: 1px solid #9197ae;
+  border-radius: 7px;
+  color: #9197ae;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  transition: background 200ms ease-out, color 200ms ease-out;
+}
+.about .about__button:hover {
+  cursor: pointer;
+  background: #2c365e;
+  color: #dfe7e6;
 }
