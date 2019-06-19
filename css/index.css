@@ -42,7 +42,8 @@
   padding: 1.2rem;
   transition: color 200ms ease-out;
 }
-.navFont:hover {
+.navFont:hover,
+.navFont:active {
   color: white;
 }
 .mainLayout {
@@ -237,11 +238,15 @@ body {
   padding: 1.2rem;
   transition: color 200ms ease-out;
 }
-.sidebar .sidebar__nav .nav-link:hover {
+.sidebar .sidebar__nav .nav-link:hover,
+.sidebar .sidebar__nav .nav-link:active {
   color: white;
 }
 .sidebar .sidebar__nav i {
   font-size: 4rem;
+}
+.sidebar .sidebar__nav .active-link {
+  color: white;
 }
 .about {
   height: 100vh;
@@ -259,6 +264,7 @@ body {
   font-size: 12.5rem;
   font-weight: 500;
   color: #2c365e;
+  position: relative;
 }
 .about .about__header .about__sub {
   font-family: 'Open Sans', sans-serif;
