@@ -1,16 +1,23 @@
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Oswald';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/oswald/v23/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Oswald';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/oswald/v23/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUZiYA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v16/mem6YaGs126MiZpBA-UFUK0Zdcg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -22,16 +29,23 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
 .navFont {
   font-family: 'Open Sans', sans-serif;
@@ -50,12 +64,16 @@
   height: 100vh;
   width: 81%;
   margin-left: 19%;
-  padding: 3.6rem 4.8rem;
+  padding: 4.8rem 4.8rem;
   background: #dfe7e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .paragraphText {
-  font-size: 2.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 2.2rem;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 3.2rem;
   color: #242424;
@@ -235,8 +253,8 @@ body {
   text-transform: uppercase;
   color: #9197ae;
   font-size: 1.8rem;
-  padding: 1.2rem;
   transition: color 200ms ease-out;
+  padding: 1.2rem;
 }
 .sidebar .sidebar__nav .nav-link:hover,
 .sidebar .sidebar__nav .nav-link:active {
@@ -248,42 +266,53 @@ body {
 .sidebar .sidebar__nav .active-link {
   color: white;
 }
-.about {
+#about {
   height: 100vh;
   width: 81%;
   margin-left: 19%;
-  padding: 3.6rem 4.8rem;
+  padding: 4.8rem 4.8rem;
   background: #dfe7e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-.about .about__header {
+#about .about__header {
   padding-bottom: 1.5rem;
   border-bottom: 2px solid #242424;
 }
-.about .about__header .about__name {
-  font-family: 'Poppins', sans-serif;
-  font-size: 12.5rem;
+#about .about__header .about__name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12rem;
   font-weight: 500;
   color: #2c365e;
   position: relative;
 }
-.about .about__header .about__sub {
+#about .about__header .about__sub {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 3rem;
-  margin-top: 2rem;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   color: #242424;
+  font-style: italic;
 }
-.about .about__description {
+#about .about__header .about__sub .star {
+  font-size: 0.6rem;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
+#about .about__description {
   margin: 2.5rem 0;
   width: 70%;
-  font-size: 2.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 2.2rem;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 3.2rem;
   color: #242424;
 }
-.about .about__button {
+#about .about__button {
   background: none;
   padding: 1.8rem 3.6rem;
   font-family: "Open Sans", sans-serif;
@@ -294,10 +323,50 @@ body {
   color: #9197ae;
   margin-top: 1rem;
   margin-bottom: 0;
-  transition: background 200ms ease-out, color 200ms ease-out;
+  transition: background 275ms ease-out, color 275ms ease-out;
 }
-.about .about__button:hover {
+#about .about__button:hover {
   cursor: pointer;
   background: #2c365e;
-  color: #dfe7e6;
+  color: white;
+}
+#about .about__button:focus {
+  outline: none;
+}
+.shadow-drop-2-center {
+  -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2019-6-19 19:40:6
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation shadow-drop-2-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
 }
