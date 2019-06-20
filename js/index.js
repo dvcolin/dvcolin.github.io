@@ -15,4 +15,10 @@ function sidebar() {
     })
 }
 
+
+
 sidebar();
+
+const mobileNav = document.querySelector('.mobile__sidebar');
+
+
