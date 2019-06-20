@@ -47,6 +47,20 @@
   font-display: swap;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Noto Sans Japanese Light'), local('NotoSansJapanese-Light'), url(https://fonts.gstatic.com/s/notosansjp/v23/-F6pfjtqLzI2JPCgQBnw7HFQaioa1Xdj.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'), url(https://fonts.gstatic.com/s/notosansjp/v23/-F62fjtqLzI2JPCgQBnw7HFYwQgM.otf) format('opentype');
+}
 .navFont {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
@@ -74,8 +88,7 @@
 }
 .paragraphText {
   font-size: 2.2rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Noto Sans JP', sans-serif;
   line-height: 3.2rem;
   color: #242424;
 }
@@ -228,7 +241,7 @@ body {
   align-items: center;
   width: 19%;
   height: 100%;
-  background: #001021;
+  background: #121626;
   padding: 4.8rem 0;
 }
 .sidebar .sidebar__image {
@@ -266,7 +279,7 @@ body {
   font-size: 4rem;
 }
 .sidebar .sidebar__nav .active-link {
-  color: white;
+  color: #ffffff;
 }
 #about {
   height: 100vh;
@@ -306,17 +319,16 @@ body {
   vertical-align: middle;
 }
 #about .about__description {
-  margin: 2.5rem 0;
+  margin: 3rem 0;
   width: 80%;
   font-size: 2.2rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Noto Sans JP', sans-serif;
   line-height: 3.2rem;
   color: #242424;
 }
 #about .about__social {
   width: 40%;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-size: 4.8rem;
   display: flex;
   flex-direction: row;
