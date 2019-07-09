@@ -329,6 +329,7 @@ body {
 }
 #about .about__header .about__sub {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 2.1rem;
   letter-spacing: 1px;
