@@ -91,6 +91,7 @@
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  color: #2c365e;
 }
 .mainLayout .main-layout__content {
   height: 80%;
@@ -307,6 +308,7 @@ body {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  color: #2c365e;
 }
 #about .main-layout__content {
   height: 80%;
@@ -379,6 +381,7 @@ body {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  color: #2c365e;
 }
 #skills .main-layout__content {
   height: 80%;
@@ -403,6 +406,7 @@ body {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  color: #2c365e;
 }
 #portfolio .main-layout__content {
   height: 80%;
@@ -424,6 +428,7 @@ body {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  color: #2c365e;
 }
 #interests .main-layout__content {
   height: 80%;
@@ -445,6 +450,7 @@ body {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
+  color: #2c365e;
 }
 #contact .main-layout__content {
   height: 80%;

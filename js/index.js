@@ -9,6 +9,8 @@ const aboutButton = document.querySelector('.about__button');
 const aboutHeader = document.querySelector('.about__header');
 
 const socialLinks = document.querySelectorAll('.social-link');
+
+
     
 sidebarLinks.forEach(link => {
     link.addEventListener('click', event => {
@@ -21,7 +23,7 @@ sidebarLinks.forEach(link => {
         })
     })
 
-
+    const scroll = new SmoothScroll('.nav-link[href*="#"]');
 
 
 
