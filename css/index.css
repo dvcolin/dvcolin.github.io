@@ -87,14 +87,15 @@
   align-items: flex-start;
 }
 .mainLayout .main-layout__header {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #2c365e;
+  margin-left: 2rem;
 }
 .mainLayout .main-layout__content {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }
 .paragraphText {
@@ -304,14 +305,15 @@ body {
   align-items: flex-start;
 }
 #about .main-layout__header {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #2c365e;
+  margin-left: 2rem;
 }
 #about .main-layout__content {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }
 #about .about__header {
@@ -333,7 +335,6 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   color: #242424;
-  font-weight: 600;
 }
 #about .about__header .about__sub .star {
   font-size: 0.6rem;
@@ -377,14 +378,15 @@ body {
   align-items: flex-start;
 }
 #skills .main-layout__header {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #2c365e;
+  margin-left: 2rem;
 }
 #skills .main-layout__content {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }
 #skills .skills-container {
@@ -402,14 +404,15 @@ body {
   align-items: flex-start;
 }
 #portfolio .main-layout__header {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #2c365e;
+  margin-left: 2rem;
 }
 #portfolio .main-layout__content {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }
 #interests {
@@ -424,14 +427,15 @@ body {
   align-items: flex-start;
 }
 #interests .main-layout__header {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #2c365e;
+  margin-left: 2rem;
 }
 #interests .main-layout__content {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }
 #contact {
@@ -446,13 +450,14 @@ body {
   align-items: flex-start;
 }
 #contact .main-layout__header {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #2c365e;
+  margin-left: 2rem;
 }
 #contact .main-layout__content {
-  height: 80%;
+  height: 75%;
   width: 100%;
 }

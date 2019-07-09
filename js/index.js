@@ -23,7 +23,7 @@ sidebarLinks.forEach(link => {
         })
     })
 
-    const scroll = new SmoothScroll('.nav-link[href*="#"]');
+const scroll = new SmoothScroll('.nav-link[href*="#"]', {easing: 'easeOutQuad', speed:250});
 
 
 
